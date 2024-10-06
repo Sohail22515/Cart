@@ -77,7 +77,7 @@ const CartItem=({imgSrc,name,price,qty,decrement,increment,deleteHandler,id})=>(
       <h3>
         {name}
       </h3>
-      <p>${price}</p>
+      <p>₹{price}</p>
     </article>
 
     <div>
